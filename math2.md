@@ -65,7 +65,7 @@ $$\int x^2 \cos(nx) dx = \frac{x^2 \sin(nx)}{n} + \frac{2x \cos(nx)}{n^2} - \fra
 將其代回 $a_n$ 的計算式中，並帶入上下限 $0$ 到 $\pi$：
 $$a_n = \frac{2}{\pi} [ \frac{x^2 \sin(nx)}{n} + \frac{2x \cos(nx)}{n^2} - \frac{2 \sin(nx)}{n^3} ]_{0}^{\pi}$$
 
-已知對於任意整數 $n$，$\sin(n\pi) = 0$ 且 $\sin(0) = 0$：
+已知對於任意整數 $n$， $\sin(n\pi) = 0$ 且 $\sin(0) = 0$：
 * 當 $x = \pi$ 時，第一項與第三項皆為 0。
 * 當 $x = 0$ 時，所有項皆為 0。
 
@@ -78,7 +78,7 @@ $$a_n = \frac{4(-1)^n}{n^2}$$
 ---
 
 ### Step 4: 組合傅立葉級數
-將求得的係數 $\frac{a_0}{2} = \frac{\pi^2}{3}$、$a_n = \frac{4(-1)^n}{n^2}$ 以及 $b_n = 0$ 代回原展開式：
+將求得的係數 $\frac{a_0}{2} = \frac{\pi^2}{3}$、 $a_n = \frac{4(-1)^n}{n^2}$ 以及 $b_n = 0$ 代回原展開式：
 
 $$f(x) = \frac{\pi^2}{3} + \sum_{n=1}^{\infty} \frac{4(-1)^n}{n^2} \cos(nx)$$
 
